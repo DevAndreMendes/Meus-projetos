@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family = Atma: wght @ 300; 500; 600 & display = swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --- cabecalho --- */
+header{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0,0,0, 0.3);
+    padding:23px;
+}
+#logo img {
+    height: 50px;
+    margin-left: 15px;
+} 
+.cabecalho{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    color: white;
+    margin: 0px 30px;
+    font-family:'Caveat', cursive;
+}
+#menus ul{  
+    display: flex;
+    list-style: none;
+}
+#menus a{
+    font-size: 14px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+#menus img{
+    height: 22px;
+}
+#text-man a{
+    color: #3471df;
+}
+
+/* --- PRINCIPAL --- */
+main{
+    padding: 35px 0px 20px 0px; 
+    height: 100%;
+    
+}
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 100%;
+}
+.produtos{
+    border: 1px solid rgb(184, 184, 184);
+    height: 310px;
+    width: 250px;
+    margin: 10px 10px;
+}
+.image-product{
+    height: 250px;
+}
+.image-product img{
+    width: 100%;
+    height: 100%;
+}
+.text-product{
+    /* background-color: chocolate; */
+    padding: 5px 12px;
+    line-height: 1.3;
+    font-family:'Caveat', cursive;
+}
+.text-product a{
+    text-decoration: none;
+}
+.text-product a:hover{
+    text-decoration: underline #999;
+}
+.text-product h1{
+    color: #999;
+    font-size: 13.2px;
+}
+.footer-primary{
+    width: 100%;
+    height: 13vh;
+    background-color:rgba(0,0,0, 0.85);
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Caveat', cursive;
+}
+@media (max-width:550px)

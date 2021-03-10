@@ -1,0 +1,184 @@
+/* ------ GLOBAL ------ */
+@import url('https://fonts.googleapis.com/css2? family = Lato: ital, wght @ 1.900 & display = swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato' , sans-serif;
+}
+/* ------ CABEÇALHO ------ */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+}
+/* ------ MENU PRINCIPAL ------ */
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin-left: 15px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+/* ------ CONTEÚDO PRINCIPAL ------ */
+.content{
+    width: 100%;
+    height: 350px;
+}
+.text-content{
+    text-align: center;
+    margin: 5% auto;
+}
+.text-content h1{
+    color: white;
+    font-size: 55px;
+}
+.text-content h1::after,.text-content h1::before{
+    content: "";
+    display: block;
+    background-color: white;
+    width: 360px;
+    height: 1.6px;
+    margin: 20px auto;
+}
+.text-content p{
+    color: white;
+}
+.principal{
+    background-image: url('imagens/1rtlsy.jpeg');
+    background-position: center top;
+    display: block;
+    background-repeat: no-repeat;
+}
+/* ------ PRIMEIRA SEÇÃO ------ */
+div.cd{
+    background-image: url('imagens/3yk26k.png');
+    height: 280px;
+    margin-bottom: 200px;
+}
+section{
+    width: 63%;
+    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+}
+section h2{
+    font-size: 45px;
+}
+section p{
+    opacity: 0.5;
+}
+section button{
+    margin-top: 30px;
+    width: 265px;
+    padding: 13px;
+    font-size: 20px;
+    color: white;
+    background: rgb(31, 27, 27);
+    cursor: pointer;
+}
+section button:hover{
+    opacity: 0.9;
+}
+/* ----- SEGUNDA SEÇÃO ------ */
+div.cd2{
+    background: url('imagens/2l95fu.jpg') center ;
+    height: 460px;
+    padding: 40px 10px;
+    color: white;
+    margin: 0 auto;
+}
+.section2 h2{
+    font-size: 45px;
+}
+.sobre{
+    padding: 20px 0px 0px;
+}
+.section2 h3{
+    opacity: 0.5;
+}
+.sobre p{
+    text-align: left;
+    margin-bottom: 7px;
+}
+.sobre img{
+    float: left;
+    width: 350px;
+    padding: 0px 20px;
+}
+/* ------ TERCEIRA SEÇÃO ------ */
+section.title-promova{
+    width: 85%;
+}
+div.promova{
+    height: 625px;
+}
+div.promova h3{
+    opacity: 0.5;
+}
+div.camisas{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 900px;
+}
+div.camis{
+    margin: 10px;
+}
+div.camisas img{
+    width: 260px;
+}
+.btn-promova{
+    background-color: transparent;
+    border: 1px solid black;
+    color:black;
+    opacity: 0.6;
+    margin-top: 100px;
+    cursor: pointer;
+}
+/* ------ SOBRE OS SHOWS ------ */
+div.shows{
+    background-image: url('imagens/0wggzn.jpeg');
+    height: 625px;
+    color: white;
+    z-index: 0;
+}
+div.shows h3{
+    opacity: 0.6;
+}
+div.horario{ 
+    width: 90%;
+    height: 85px;
+    margin: 0px 15px;
+    border-bottom: 2px solid rgba(255,255,255, 0.6);
+    text-align: left;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+div.horario h2{
+    font-size: 25px;
+}
+div.horario4{
+    border: none;
+}
+div.shows button{
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+/* ------ RODAPÉ ------ */
+footer{
+    padding: 30px 20px;
+    height: 90px;
+    text-align: center;
+}
